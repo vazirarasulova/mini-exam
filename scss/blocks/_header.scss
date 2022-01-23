@@ -1,0 +1,53 @@
+.header{
+  margin-top: 30px;
+  margin-bottom: 79px;
+}
+
+.header__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__link{
+  width: 35px;
+  height: 42px;
+  margin-right: 460px;
+}
+
+
+.nav__list{
+  display: flex;
+  list-style: none;
+}
+
+.nav__item{
+  margin-right: 30px;
+}
+
+
+.nav__link{
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+
+  &:hover{
+    color: #000;
+    border-bottom: 1px solid #000;
+  }
+}
+
+.form__input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #F3F3F3;
+  padding: 16px 0;
+  margin-left: 10px;
+  resize: vertical;
+}
+

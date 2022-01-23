@@ -1,0 +1,48 @@
+.hero{
+  padding-top: 50px;
+  padding-bottom: 185px;
+  background-image: url("../images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 600px) calc(0%);
+  border-bottom: solid #DDDDDD;
+}
+
+.hero__box{
+  width: 490px;
+}
+
+.hero__title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+.hero__text{
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  margin-bottom: 30px;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+
+}
+
+.hero__link{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #EA625C;
+  padding: 12px 39px;
+  text-decoration: none;
+
+  &:hover{
+    background-color: #D34C45;
+  }
+  }
