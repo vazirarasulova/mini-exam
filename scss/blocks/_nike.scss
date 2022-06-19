@@ -1,11 +1,15 @@
 .nike{
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .nike__info{
  display: flex;
  justify-content: space-between;
  align-items: center;
+}
+
+.nike__title{
+  margin-bottom: 30px;
 }
 
 .nike__text{
@@ -15,4 +19,48 @@
 .nike__img{
   width: 400px;
   height: 600px;
+  border-radius: 20px;
+}
+.nike__img-mb{
+  display: none;
+}
+
+.nike__link{
+  display: inline-block;
+  padding: 12px 90px;
+}
+
+
+
+@media screen and (max-width: 520px) {
+  
+  .nike__info{
+    flex-direction: column-reverse;
+  }
+
+  .nike__title{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    text-align:left;
+  }
+
+  .nike__box{
+    width: 100%;
+    padding: 0;
+  }
+
+  .nike__img{
+    display: none;
+  }
+
+  .nike__img-mb{
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 41px;
+  }
+
+  .nike__link{
+    padding: 10px 67px;
+  }
 }

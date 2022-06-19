@@ -1,13 +1,15 @@
 .health{
   padding-top: 240px;
   padding-bottom: 239px;
-  background-image: url("../images/health-bg.jpg");
+  background-image: url("../images/runners.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .health__box{
-  margin-left: 535px;
+  width: 490px;
+  margin-left: 510px;
 }
 
 .health__title{
@@ -17,4 +19,47 @@
 .health__text{
   color: #fff;
   border-left: 3px solid #fff;
+}
+
+.health__link{
+  display: inline-block;
+  padding: 12px 46px;
+}
+
+
+
+@media screen and (max-width: 520px) {
+  
+  .health{
+    padding: 96px 0 106px;
+    background-image: url("../images/runners-mb.jpg");
+    
+  }
+
+  .health__box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .health__title{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    text-align: left;
+  }
+
+  .health__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .health__link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 7px 12px;
+  }
 }

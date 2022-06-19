@@ -3,7 +3,7 @@
   padding-bottom: 185px;
   background-image: url("../images/intro-bg.jpg");
   background-repeat: no-repeat;
-  background-position: calc(50% + 600px) calc(0%);
+  background-position: calc(50% + 550px) calc(0%);
   border-bottom: solid #DDDDDD;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .hero__link{
+  display: inline-block;
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
@@ -46,3 +47,38 @@
     background-color: #D34C45;
   }
   }
+
+
+  @media screen and (max-width: 520px) {
+
+    .hero{
+      padding: 0 0 70px;
+      background-image: url("../images/hero-bg-mb.png");
+      background-position: calc(50% + 90px) calc(0%);
+      border: none;
+    }
+
+    .hero__box{
+      width: 100%;
+      padding-top: 401px;
+    }
+
+    .hero__title{
+      font-weight: 700;
+      font-size: 46px;
+      line-height: 120%;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .hero__text{
+      font-size: 14px;
+      line-height: 150%;
+    }
+
+    .hero__link{
+      padding: 10px 25px;
+    }
+  }
+  
